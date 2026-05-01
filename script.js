@@ -5,9 +5,9 @@ const pageMetaDescription = document.querySelector('meta[name="description"]');
 
 const translations = {
   ja: {
-    page_title: "Mai Van Sang | Project Manager",
+    page_title: "Trương Thị Thảo Nguyên | Project Manager",
     page_description:
-      "Mai Van Sangのポートフォリオサイト。13年以上のIT経験、5年以上のPM経験、9年以上の日本顧客対応経験を持つProject Manager。",
+      "Trương Thị Thảo Nguyênのポートフォリオサイト。13年以上のIT経験、5年以上のPM経験、9年以上の日本顧客対応経験を持つProject Manager。",
     brand_role: "Project Manager",
     nav_profile: "プロフィール",
     nav_strengths: "強み",
@@ -16,7 +16,7 @@ const translations = {
     hero_eyebrow: "PROJECT / QUALITY / JAPAN CLIENTS",
     hero_title: '経験と現場理解で、<span>複雑なプロジェクトを前へ進める</span>',
     hero_text:
-      "Mai Van Sangは、品質改善、プロジェクトマネジメント、運営視点を横断してきたProject Managerです。長年のIT経験と日本顧客対応経験を活かし、安定した進行と継続改善を重視します。",
+      "Trương Thị Thảo Nguyênは、品質改善、プロジェクトマネジメント、運営視点を横断してきたProject Managerです。長年のIT経験と日本顧客対応経験を活かし、安定した進行と継続改善を重視します。",
     hero_cta_projects: "実績を見る",
     hero_cta_contact: "連絡先",
     metric_1: "IT経験",
@@ -80,13 +80,13 @@ const translations = {
     contact_title: "お問い合わせ",
     contact_text:
       "プロジェクト管理、品質改善、運用整理に関するご相談は、以下からご連絡ください。",
-    footer_text: '© <span id="year"></span> Mai Van Sang',
+    footer_text: '© <span id="year"></span> Trương Thị Thảo Nguyên',
     footer_back_to_top: "トップへ戻る"
   },
   en: {
-    page_title: "Mai Van Sang | Project Manager",
+    page_title: "Trương Thị Thảo Nguyên | Project Manager",
     page_description:
-      "Portfolio site of Mai Van Sang, a Project Manager with 13+ years in IT, 5+ years in project management, and 9+ years working with Japanese clients.",
+      "Portfolio site of Trương Thị Thảo Nguyên, a Project Manager with 13+ years in IT, 5+ years in project management, and 9+ years working with Japanese clients.",
     brand_role: "Project Manager",
     nav_profile: "Profile",
     nav_strengths: "Strengths",
@@ -96,7 +96,7 @@ const translations = {
     hero_title:
       'Using experience and field insight to <span>move complex projects forward with stability</span>',
     hero_text:
-      "Mai Van Sang is a Project Manager with experience across quality improvement, project execution, and operational coordination. With long-term IT experience and many years working with Japanese clients, he focuses on steady delivery and continuous improvement.",
+      "Trương Thị Thảo Nguyên is a Project Manager with experience across quality improvement, project execution, and operational coordination. With long-term IT experience and many years working with Japanese clients, he focuses on steady delivery and continuous improvement.",
     hero_cta_projects: "View Projects",
     hero_cta_contact: "Contact",
     metric_1: "years in IT",
@@ -160,7 +160,7 @@ const translations = {
     contact_title: "Get in touch",
     contact_text:
       "For discussions related to project management, quality improvement, and operation design, please reach out via the channels below.",
-    footer_text: '© <span id="year"></span> Mai Van Sang',
+    footer_text: '© <span id="year"></span> Trương Thị Thảo Nguyên',
     footer_back_to_top: "Back to top"
   }
 };
