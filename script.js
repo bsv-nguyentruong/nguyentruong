@@ -5,10 +5,10 @@ const pageMetaDescription = document.querySelector('meta[name="description"]');
 
 const translations = {
   ja: {
-    page_title: "Trương Thị Thảo Nguyên | Project Manager",
+    page_title: "Trương Thị Thảo Nguyên | QC Engineer",
     page_description:
-      "Trương Thị Thảo Nguyênのポートフォリオサイト。13年以上のIT経験、5年以上のPM経験、9年以上の日本顧客対応経験を持つProject Manager。",
-    brand_role: "Project Manager",
+      "Trương Thị Thảo Nguyênのポートフォリオサイト。品質管理エンジニア（QCエンジニア）として、プロセス・製品の品質を高い水準で維持し、継続的な改善に取り組みます。",
+    brand_role: "QC Engineer",
     nav_profile: "プロフィール",
     nav_strengths: "強み",
     nav_projects: "実績",
@@ -16,34 +16,34 @@ const translations = {
     hero_eyebrow: "PROJECT / QUALITY / JAPAN CLIENTS",
     hero_title: '経験と現場理解で、<span>複雑なプロジェクトを前へ進める</span>',
     hero_text:
-      "Trương Thị Thảo Nguyênは、品質改善、プロジェクトマネジメント、運営視点を横断してきたProject Managerです。長年のIT経験と日本顧客対応経験を活かし、安定した進行と継続改善を重視します。",
+      "Trương Thị Thảo Nguyênは、品質管理エンジニア（QCエンジニア）として、プロセスおよび製品の品質を高い水準で維持しながら、スキル向上を通じて業務効率を高めます。企業の成長に貢献できる重要なメンバーになることを目指します。",
     hero_cta_projects: "実績を見る",
     hero_cta_contact: "連絡先",
-    metric_1: "IT経験",
-    metric_2: "PM経験",
-    metric_3: "日本顧客との業務経験",
-    metric_4: "子会社経営経験",
+    metric_1: "品質管理",
+    metric_2: "統計分析",
+    metric_3: "ISTQB",
+    metric_4: "継続改善",
     summary_label: "Career Summary",
-    stat_1: "年のIT経験",
-    stat_2: "年のProject Management経験",
-    stat_3: "年の日本顧客対応経験",
+    stat_1: "高い水準の維持",
+    stat_2: "統計的アプローチ",
+    stat_3: "継続的最適化",
     profile_eyebrow: "Profile",
     profile_title: "経験の幅と、現場で動かせる推進力",
     profile_text_1:
-      "私の強みは、開発品質、進行管理、業務運用を別々ではなく、ひとつの流れとして捉えられることです。",
+      "私の強みは、プロセスと製品の品質を高い水準で維持しながら、業務効率の向上とスキルの向上に取り組むことです。",
     profile_text_2:
-      "13年以上のIT経験、5年以上のPM経験、9年以上の日本顧客対応経験に加え、子会社運営の経験を通じて、現場・顧客・運営をつなぐ実務的な判断と推進を行ってきました。",
+      "品質管理エンジニア（QCエンジニア）として、品質課題の見える化、再発防止、継続改善に取り組み、企業の成長に貢献できるメンバーを目指します。",
     strengths_eyebrow: "Strengths",
     strengths_title: "業務で強みを発揮できる領域",
-    strength_1_title: "Quality Management",
+    strength_1_title: "品質管理（QC）",
     strength_1_text:
-      "品質課題の見える化、再発防止、継続改善まで一貫して対応し、安定した運用品質につなげます。",
-    strength_2_title: "Project Coordination",
+      "プロセスと製品の品質を高い水準で維持し、品質管理プロセスの設計および運用に取り組み、継続的な改善を実現します。",
+    strength_2_title: "ドキュメント作成・データ分析",
     strength_2_text:
-      "スケジュール、関係者調整、優先順位整理を行い、複数部門が関わる案件でも前進できる状態を作ります。",
-    strength_3_title: "Japanese Client Work",
+      "ドキュメント作成および統計的分析を通じて、品質データを可視化し、意思決定の根拠となる情報を提供します。",
+    strength_3_title: "品質ツール・標準知識",
     strength_3_text:
-      "日本顧客との長年の業務経験を活かし、期待値調整、進行共有、品質意識の合わせ込みを丁寧に行います。",
+      "品質管理ツールおよびISTQB、Microsoft Officeなどのツールを活用し、効率的で信頼性の高い品質保証を実現します。",
     projects_eyebrow: "Selected Projects",
     projects_title: "業務理解と推進力が活きる代表案件",
     project_link_label: "Reference",
@@ -83,86 +83,7 @@ const translations = {
     footer_text: '© <span id="year"></span> Trương Thị Thảo Nguyên',
     footer_back_to_top: "トップへ戻る"
   },
-  en: {
-    page_title: "Trương Thị Thảo Nguyên | Project Manager",
-    page_description:
-      "Portfolio site of Trương Thị Thảo Nguyên, a Project Manager with 13+ years in IT, 5+ years in project management, and 9+ years working with Japanese clients.",
-    brand_role: "Project Manager",
-    nav_profile: "Profile",
-    nav_strengths: "Strengths",
-    nav_projects: "Projects",
-    nav_contact: "Contact",
-    hero_eyebrow: "PROJECT / QUALITY / JAPAN CLIENTS",
-    hero_title:
-      'Using experience and field insight to <span>move complex projects forward with stability</span>',
-    hero_text:
-      "Trương Thị Thảo Nguyên is a Project Manager with experience across quality improvement, project execution, and operational coordination. With long-term IT experience and many years working with Japanese clients, he focuses on steady delivery and continuous improvement.",
-    hero_cta_projects: "View Projects",
-    hero_cta_contact: "Contact",
-    metric_1: "years in IT",
-    metric_2: "years in PM",
-    metric_3: "years with Japanese clients",
-    metric_4: "years in subsidiary management",
-    summary_label: "Career Summary",
-    stat_1: "years in IT",
-    stat_2: "years in Project Management",
-    stat_3: "years working with Japanese clients",
-    profile_eyebrow: "Profile",
-    profile_title: "Broad experience and practical execution power",
-    profile_text_1:
-      "My strength is not limited to quality control or schedule management alone. I connect delivery quality, project progress, and business operation as one practical flow.",
-    profile_text_2:
-      "With 13+ years in IT, 5+ years in PM, 9+ years working with Japanese clients, and hands-on subsidiary operation experience, I value realistic decision-making and stable project advancement.",
-    strengths_eyebrow: "Strengths",
-    strengths_title: "Areas where I create value",
-    strength_1_title: "Quality Management",
-    strength_1_text:
-      "I handle issue visualization, recurrence prevention, and continuous improvement to support stable operational quality.",
-    strength_2_title: "Project Coordination",
-    strength_2_text:
-      "I align schedules, stakeholders, and priorities so that cross-functional projects can move forward with clarity.",
-    strength_3_title: "Japanese Client Work",
-    strength_3_text:
-      "With long-term experience working with Japanese clients, I pay close attention to expectation alignment, communication, and quality awareness.",
-    projects_eyebrow: "Selected Projects",
-    projects_title: "Representative projects where business understanding mattered",
-    project_link_label: "Reference",
-    project_1_tag: "Resident Service",
-    project_1_title: "Resident Service Platform",
-    project_1_text:
-      "A resident-facing service where user flow and real operation both matter. This type of project requires careful coordination across information structure, operational continuity, and quality control.",
-    project_1_point_1: "User-facing information flow",
-    project_1_point_2: "Improvement based on real operation",
-    project_1_point_3: "Continuous quality control",
-    project_2_tag: "Event Business System",
-    project_internal_label: "Internal / Business Operation",
-    project_2_title: "Shoei Bijutsu Order Site",
-    project_2_text:
-      "A business workflow project in the event domain covering ordering and operational flow. It required process understanding, stakeholder alignment, and a practical view toward operational adoption.",
-    project_2_point_1: "Order flow understanding",
-    project_2_point_2: "Stakeholder coordination",
-    project_2_point_3: "Operational adoption focus",
-    project_4_tag: "Healthcare Platform",
-    project_4_title: "Health Support Service",
-    project_4_text:
-      "A healthcare-oriented service handling specialized information. Clarity, trust, and ongoing content update make quality management and operation design especially important.",
-    project_4_point_1: "Clear information design",
-    project_4_point_2: "Operation for ongoing updates",
-    project_4_point_3: "Reliable quality control",
-    project_5_tag: "Content App",
-    project_5_title: "Content Delivery App",
-    project_5_text:
-      "A continuously updated content service where notification quality, content release cycle, and stable user experience all matter over time.",
-    project_5_point_1: "Stable notification and update cycle",
-    project_5_point_2: "Quality management for continuous operation",
-    project_5_point_3: "User experience maintenance",
-    contact_eyebrow: "Contact",
-    contact_title: "Get in touch",
-    contact_text:
-      "For discussions related to project management, quality improvement, and operation design, please reach out via the channels below.",
-    footer_text: '© <span id="year"></span> Trương Thị Thảo Nguyên',
-    footer_back_to_top: "Back to top"
-  }
+
 };
 
 const updateYear = () => {
