@@ -175,12 +175,10 @@ img {
 }
 
 .section-heading h2 {
-  max-width: 15ch;
   font-size: clamp(2rem, 4vw, 3.2rem);
 }
 
 #projects .section-heading h2 {
-  max-width: 18ch;
   font-size: clamp(2.3rem, 4.6vw, 3.9rem);
   line-height: 1.05;
 }
@@ -193,7 +191,6 @@ img {
 }
 
 .hero h1 {
-  max-width: 10ch;
   font-size: clamp(3rem, 5vw, 5rem);
 }
 
@@ -292,7 +289,6 @@ img {
 }
 
 .hero-copy-center {
-  max-width: 780px;
   margin: 0 auto;
   text-align: center;
 }
@@ -316,7 +312,6 @@ img {
 
 .hero-title {
   margin: 0 auto 22px;
-  max-width: 780px;
   color: #eef3ff;
   font-size: clamp(1.15rem, 2.2vw, 1.5rem);
   font-weight: 700;
@@ -329,7 +324,6 @@ img {
 
 .hero-lead {
   margin: 0 auto;
-  max-width: 720px;
   color: var(--muted);
   font-size: 1.05rem;
   line-height: 1.9;
@@ -544,7 +538,6 @@ img {
 .project-card p {
   font-size: 1.06rem;
   line-height: 1.85;
-  max-width: 68ch;
   margin: 0;
 }
 
