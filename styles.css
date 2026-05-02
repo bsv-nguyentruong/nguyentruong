@@ -297,6 +297,44 @@ img {
   text-align: center;
 }
 
+.hero-name {
+  margin: 0;
+  font-size: clamp(3.5rem, 8vw, 5.6rem);
+  line-height: 0.95;
+  letter-spacing: -0.06em;
+  color: #dbeafe;
+}
+
+.hero-role {
+  margin: 18px auto 10px;
+  color: #dbeafe;
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  font-weight: 600;
+}
+
+.hero-title {
+  margin: 0 auto 22px;
+  max-width: 780px;
+  color: #eef3ff;
+  font-size: clamp(1.15rem, 2.2vw, 1.5rem);
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.hero-title .highlight {
+  color: #7dd3fc;
+}
+
+.hero-lead {
+  margin: 0 auto;
+  max-width: 720px;
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+
 .hero {
   padding-bottom: 40px;
 }
